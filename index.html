@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hisham Moussa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          darkMode: 'class',
+        };
+    </script>
+  </head>
+  <body class="dark:bg-gray-900">
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+      <div
+        class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4"
+      >
+        <a
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img
+            src="./assets/Behira_Govenorate.png"
+            class="h-12"
+            alt="Flowbite Logo"
+          />
+        </a>
+        <div class="flex items-center space-x-6 rtl:space-x-reverse">
+          <span
+            class="text-sm text-gray-500 dark:text-white "
+            > القيادي الوطني والاقتصادي</span
+          >
+          <span
+            class="text-sm text-gray-500 dark:text-white "
+            >  هشام موسي</span
+          >
+          <button id="dark-mode-toggle" class="flex items-center justify-center w-12 h-12 bg-gray-200 dark:bg-gray-600 rounded-full focus:outline-none transition-colors duration-500">
+            <!-- أيقونة الشمس -->
+            <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500 transition-transform duration-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m8.66-8.66h-1M4.34 12.34h-1m15.02 4.68l-.7-.7M6.34 6.34l-.7-.7m12.02 12.02l-.7-.7M6.34 17.66l-.7-.7M12 7a5 5 0 100 10 5 5 0 000-10z" />
+            </svg>
+            <!-- أيقونة القمر -->
+            <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" class="hidden w-6 h-6 text-gray-100 transition-transform duration-500" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <nav class="bg-gray-50 dark:bg-gray-700">
+      <div class="max-w-screen-xl px-4 py-3 mx-auto">
+        <div class="flex items-center">
+          <ul
+            class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm"
+          >
+            <li>
+              <a
+                href="#"
+                class="text-gray-900 dark:text-white hover:underline"
+                aria-current="page"
+                >رؤية تطور </a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-gray-900 dark:text-white hover:underline"
+                >المسيرة المهنية</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-gray-900 dark:text-white hover:underline"
+                >المسيرة الحزبية</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-gray-900 dark:text-white hover:underline"
+                >الخطط المستقبلية</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- main -->
+    <div class="flex flex-col items-center bg-white border border-gray-200 mt-10 shadow-sm rounded-lg w-[90%] mr-[5%] ml-[5%]  xl:max-w-[80%] xl:mr-[10%] xl:ml-[10%] hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:rounded-none md:rounded-s-lg" src="/assets/home_img.jpg" alt="">
+        <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">هشام موسى – قيادي وطني ورجل أعمال</h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">مسيرة حافلة بالإنجازات في العمل السياسي والاقتصادي، ودور بارز في التنمية المجتمعية والعمل الجماهيري.</p>
+        </div>
+    </div>
+
+    <!-- according -->
+     
+
+    <div id="accordion-collapse" class="w-[90%] ml-[5%] mr-[5%] mt-10 mb-10 " data-accordion="collapse">
+        <!-- Professional Journey Section -->
+        <h2 id="accordion-collapse-heading-1">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+            <span>المسيرة المهنية</span>
+            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+          <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+            <p class="mb-2 text-gray-500 dark:text-gray-400">هشام موسى هو رجل أعمال قيادي له تأثير كبير في العديد من المجالات الاقتصادية. بدأ مسيرته المهنية من خلال تأسيس شركة آل موسى للاستثمار والتنمية العقارية والمقاولات العامة، حيث قدم العديد من المشروعات العقارية الناجحة التي ساهمت في تعزيز الاقتصاد المحلي.</p>
+            <p class="text-gray-500 dark:text-gray-400">من خلال خبرته في إدارة المشروعات الكبيرة، استطاع هشام موسى تحقيق نمو كبير في مجال الاستثمار العقاري، بالإضافة إلى تعزيز مكانته في السوق المحلي والدولي.</p>
+        </div>
+        </div>
+    
+        <!-- Political Career Section -->
+        <h2 id="accordion-collapse-heading-2">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+            <span>المسيرة الحزبية والسياسية</span>
+            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+          <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+            <p class="mb-2 text-gray-500 dark:text-gray-400">هشام موسى يشغل حالياً منصب الأمين المساعد للعمل الجماهيري في الحملة الوطنية بالمركزية، حيث يشارك في العديد من الأنشطة السياسية التي تهدف إلى تحسين الأوضاع المجتمعية وتعزيز التواصل بين المواطنين والمسؤولين.</p>
+            <p class="text-gray-500 dark:text-gray-400">كما يشغل منصب الأمين المساعد لشئون العضوية في حزب الشعب الجمهوري، ويسعى من خلاله إلى توسيع قاعدة الحزب وتعزيز دوره السياسي في المرحلة المقبلة.</p>
+            <p class="text-gray-500 dark:text-gray-400">بجانب ذلك، يخطط هشام موسى للترشح لانتخابات مجلس الشعب القادمة، حيث يسعى من خلال ترشحه إلى تمثيل المواطنين بشكل فعال وتحقيق تغييرات إيجابية في التشريعات التي تساهم في تحسين حياة المواطنين، وتعزيز الاستثمارات التي تساهم في توفير فرص العمل.</p>
+        </div>
+        </div>
+    
+        <!-- Future Plans Section -->
+        <h2 id="accordion-collapse-heading-3">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+            <span>الخطط المستقبلية</span>
+            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+            <p class="mb-2 text-gray-500 dark:text-gray-400">يتطلع هشام موسى إلى التوسع في مشروعاته العقارية المستقبلية وتطوير مشروعات مبتكرة تساهم في تحسين الاقتصاد المحلي وزيادة فرص العمل. كما يهدف إلى تعزيز التفاعل بين القطاع الخاص والحكومة لتحقيق تنمية مستدامة.</p>
+            <p class="text-gray-500 dark:text-gray-400">من ضمن خططه المستقبلية، يركز هشام موسى على تطوير مدن جديدة ومتطورة تكون قادرة على استيعاب الزيادة السكانية، مع توفير بنية تحتية حديثة تلبي احتياجات الأجيال القادمة.</p>
+            <p class="text-gray-500 dark:text-gray-400">أما في المجال السياسي، فهو يعتزم استخدام منصبه في مجلس الشعب القادم للتركيز على القضايا الاجتماعية والتنموية، والضغط من أجل تشريعات تدعم الاستثمارات في مجالات متنوعة، بما يساهم في تحسين مستوى الحياة في مصر.</p>
+        </div>
+        </div>
+    
+        <!-- City Development Vision Section -->
+        <h2 id="accordion-collapse-heading-4">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-b-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
+            <span>رؤية وتطوير المدينة</span>
+            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
+          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+            <p class="mb-2 text-gray-500 dark:text-gray-400">يهدف هشام موسى إلى تطوير المدن الجديدة من خلال دمج التكنولوجيا الحديثة في البنية التحتية، مع إنشاء مناطق سكنية وتجارية توفر بيئة حياة متكاملة ومريحة. كما يخطط لتحسين شبكة المواصلات داخل المدن لتسهيل التنقل وتحسين جودة الحياة.</p>
+            <p class="text-gray-500 dark:text-gray-400">كما أن لديه رؤية واضحة لتحسين قطاع السياحة في مصر من خلال تطوير مشروعات سياحية تستهدف الأسواق الدولية، مما يساعد على جذب الاستثمارات الأجنبية وتعزيز الاقتصاد الوطني.</p>
+            <p class="text-gray-500 dark:text-gray-400">في الجانب السياسي، يسعى هشام موسى إلى التأثير بشكل إيجابي على مشاريع تطوير المدن عبر سن تشريعات تدعم البنية التحتية المستدامة، والاهتمام بالتحسين المستمر للخدمات الحكومية وتوفير فرص العمل من خلال مشروعات جديدة.</p>
+        </div>
+        </div>
+      </div>
+
+
+      <!-- cursor -->
+
+      
+
+<div id="default-carousel" class="relative w-[90%] ml-[5%] mr-[5%] mt-12" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+        <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./assets/image1.jpg" class="absolute inset-0 object-contain w-full h-full" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./assets/image2.jpg" class="absolute inset-0 object-contain w-full h-full" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./assets/image3.jpg" class="absolute inset-0 object-contain w-full h-full" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./assets/image4.jpg" class="absolute inset-0 object-contain w-full h-full" alt="...">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./assets/image6.jpg" class="absolute inset-0 object-contain w-full h-full" alt="...">
+        </div>
+    </div>
+    
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-5 h-5 rounded-full  bg-gray-500" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-5 h-5 rounded-full  bg-gray-500" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-5 h-5 rounded-full  bg-gray-500" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-5 h-5 rounded-full  bg-gray-500" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <button type="button" class="w-5 h-5 rounded-full  bg-gray-500" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+      
+
+
+      <!-- footer -->
+<footer class="bg-white rounded-lg shadow-sm dark:bg-gray-900 m-4 mt-20">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="https://www.facebook.com/hisham.moussa.7311?rdid=UDAvZ9sPPsS3v3Rv&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BNBTy74p2%2F#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                <img src="./assets/facebook.png" class="h-12" alt="Flowbite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Hisham Moussa </span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://www.facebook.com/profile.php?id=61559694659595" class="hover:underline">GenuisWeb™</a>. All Rights Reserved.</span>
+    </div>
+</footer>
+
+
+
+
+    <!-- script -->
+    <script>
+        const toggleButton = document.getElementById("dark-mode-toggle");
+        const htmlElement = document.documentElement;
+        const sunIcon = document.getElementById("sun-icon");
+        const moonIcon = document.getElementById("moon-icon");
+  
+        // Check local storage for dark mode preference
+        if (localStorage.getItem("dark-mode") === "enabled") {
+          htmlElement.classList.add("dark");
+          sunIcon.classList.add("hidden");
+          moonIcon.classList.remove("hidden");
+        }
+  
+        toggleButton.addEventListener("click", () => {
+          if (htmlElement.classList.contains("dark")) {
+            htmlElement.classList.remove("dark");
+            localStorage.setItem("dark-mode", "disabled");
+            
+            sunIcon.classList.remove("hidden");
+            sunIcon.classList.add("rotate-180");
+            moonIcon.classList.add("hidden");
+            setTimeout(() => {
+                sunIcon.classList.remove("rotate-180");
+            }, 500);
+          } else {
+            htmlElement.classList.add("dark");
+            localStorage.setItem("dark-mode", "enabled");
+            moonIcon.classList.remove("hidden");
+            moonIcon.classList.add("rotate-180");
+            sunIcon.classList.add("hidden");
+            setTimeout(() => {
+                moonIcon.classList.remove("rotate-180");
+            }, 500);
+          }
+        });
+
+        // Accordion functionality
+        const accordionButtons = document.querySelectorAll('[data-accordion-target]');
+
+        accordionButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const targetId = button.getAttribute('data-accordion-target');
+            const targetElement = document.querySelector(targetId);
+            
+            // Toggle the visibility of the target section
+            if (targetElement.classList.contains('hidden')) {
+            targetElement.classList.remove('hidden');
+            targetElement.classList.add('block');
+            } else {
+            targetElement.classList.remove('block');
+            targetElement.classList.add('hidden');
+            }
+
+            // Toggle the icon rotation
+            const icon = button.querySelector('[data-accordion-icon]');
+            icon.classList.toggle('rotate-180');
+        });
+        });
+
+
+
+        //  cursor 
+
+        document.addEventListener('DOMContentLoaded', function () {
+    const items = document.querySelectorAll('[data-carousel-item]');
+    const indicators = document.querySelectorAll('[data-carousel-slide-to]');
+    const prevButton = document.querySelector('[data-carousel-prev]');
+    const nextButton = document.querySelector('[data-carousel-next]');
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      items.forEach((item, i) => {
+        item.classList.add('hidden');
+        if (i === index) {
+          item.classList.remove('hidden');
+        }
+      });
+
+      indicators.forEach((indicator, i) => {
+        indicator.setAttribute('aria-current', i === index ? 'true' : 'false');
+            // Toggle active class
+            indicator.classList.toggle('bg-blue-500', i === index); // active color
+            indicator.classList.toggle('bg-gray-500', i !== index); // inactive color
+        });
+
+      currentIndex = index;
+    }
+
+    function nextSlide() {
+      const nextIndex = (currentIndex + 1) % items.length;
+      showSlide(nextIndex);
+    }
+
+    function prevSlide() {
+      const prevIndex = (currentIndex - 1 + items.length) % items.length;
+      showSlide(prevIndex);
+    }
+
+    indicators.forEach((indicator, index) => {
+      indicator.addEventListener('click', () => {
+        showSlide(index);
+      });
+    });
+
+    prevButton.addEventListener('click', prevSlide);
+    nextButton.addEventListener('click', nextSlide);
+
+    // Optional: Auto-rotate the carousel every 3 seconds
+    setInterval(nextSlide, 3000);
+
+    // Initialize the carousel with the first item visible
+    showSlide(currentIndex);
+  });
+
+      </script>
+  </body>
+</html>
